@@ -1,0 +1,127 @@
+.share-com-j{
+    height: 30%;
+    display: flex;
+    align-items: right;    
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+    position: sticky;
+    top: 30%;
+}
+.share-com-j a{
+
+    background-color: #e3e3e3;
+}
+.share-com-j .share-icon{
+    box-shadow: 0 0 3px;
+    padding:5px;
+}
+.share-com-j .icon-share-j{
+    display: flex;
+    flex-direction: column;
+    flex-direction: flex-end;
+    align-items: flex-end;
+    box-shadow: 0 0 1px;
+    z-index: -1;
+}
+.share-com-j .icon-share-j a{
+    padding:5px 10px;
+}
+.share-com-j a:hover{
+    transform: translateX(-3px);  
+}
+.head-form-post{
+    border-bottom: 1px solid gray;
+    margin-bottom:30px;
+}
+.head-form-post p{
+    margin:4px !important;
+}
+.content-f-p{
+        line-height: 1.6;
+        font-size: 17px;
+        word-spacing: 3px;
+        font-family: Verdana,sans-serif;
+}
+/* footer */
+.footer-j{
+    margin: 0 10%;
+    padding: 15px;
+    background-color: #636262;
+    display: flex;
+}
+.footer-j .content-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-footer a{
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.design-j{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 250px;
+}
+.design-j .community-j{
+    display:flex;
+}
+.community-j a{
+    height: 30px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 0 0 0 5px;
+}
+.community-j p{
+    color:white;
+}
+.design-j .sign-web p{
+    color:white;
+    font-size:10px;
+}
+@media only screen and (max-width:1263px)
+{
+    .design-j{
+        width: 350px;
+    }
+}
+@media only screen and (max-width:963px)
+{
+    .footer-j{
+        margin:0px;
+    }
+}
+@media only screen and (max-width:763px)
+{
+        .design-j{
+            width: 500px;
+        }
+        .community-j p {
+            font-size:14px;
+        }
+}
+@media only screen and (max-width:603px)
+{
+    .design-j{
+        width: 700px;
+    }
+}
+@media only screen and (max-width:479px)
+{
+    .footer-j{
+        flex-direction: column;
+    }
+    .design-j{
+        width: 100%;
+        align-items: flex-start;
+    }
+    .footer-j .content-footer{
+        border-bottom:1px solid gray;
+        margin-bottom:10px;
+        padding-bottom:10px;
+    }
+}
